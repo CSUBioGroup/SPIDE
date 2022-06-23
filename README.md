@@ -33,3 +33,15 @@ from SPIDE.spide import spide
 
 spide(geneexp_file, k, ncore, ppi_file, result_file)
 ```
+
+Details
+```
+spide(geneexp_file, k, ncore, ppi_file, result_file)
+
+Parameters:
+    geneexp_file: the path of single cell gene expression file
+    k: the number of k-Nearest Neighbor
+    ncore: the number of threads
+    ppi_file: the path of underlying PPI file
+    result_file: the path of result file (each row means the differential potency of corresponding cell)
+```
