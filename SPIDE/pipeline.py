@@ -14,7 +14,7 @@ from itertools import repeat
 
 #args
 ppi_file = './PPI.csv'
-geneexp_file = '/home/zengyp/xzw/data/GSE75748_sc_cell_type_ec_ID.csv'
+geneexp_file = './GSE75748_sc_cell_type_ec_ID.csv'
 k = 25
 ncore = 20
 result_file = './pychu.csv'
